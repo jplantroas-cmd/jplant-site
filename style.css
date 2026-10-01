@@ -1,0 +1,35 @@
+:root{--ink:#0b0b0c;--paper:#ffffff;--muted:#5d6168;--line:#e6e7ea;--accent:#2f8cff}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+a{color:var(--ink)}
+.wrap{max-width:880px;margin:0 auto;padding:0 20px}
+header.top{border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{font-weight:800;letter-spacing:-.02em;text-decoration:none;font-size:18px}
+.brand span{color:var(--accent)}
+nav a{margin-left:20px;text-decoration:none;color:var(--muted);font-size:15px}
+nav a:hover{color:var(--ink)}
+.hero{background:var(--ink);color:var(--paper);padding:96px 0 88px}
+.hero h1{font-size:clamp(38px,7vw,64px);line-height:1.05;letter-spacing:-.03em;margin:0 0 20px}
+.hero p{font-size:clamp(18px,2.4vw,21px);color:#c9ccd2;max-width:620px;margin:0 0 32px}
+.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;padding:14px 26px;border-radius:8px}
+.btn:hover{filter:brightness(1.08)}
+section{padding:64px 0;border-bottom:1px solid var(--line)}
+h2{font-size:28px;letter-spacing:-.02em;margin:0 0 16px}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:28px;margin-top:24px}
+.cols h3{font-size:18px;margin:0 0 6px}
+.cols p{margin:0;color:var(--muted)}
+.contact dl{display:grid;grid-template-columns:120px 1fr;gap:10px 16px;margin:24px 0 0}
+.contact dt{color:var(--muted)}
+.contact dd{margin:0;font-weight:600}
+.doc{padding:56px 0 72px}
+.doc h1{font-size:40px;letter-spacing:-.03em;margin:0 0 6px}
+.doc .date{color:var(--muted);margin:0 0 32px}
+.doc h2{font-size:21px;margin:36px 0 10px}
+.doc p,.doc li{color:#2a2c30}
+footer{padding:32px 0 48px;color:var(--muted);font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between}
+footer a{color:var(--muted);margin-left:16px}
+footer a:first-child{margin-left:0}
+@media (max-width:560px){nav a{margin-left:14px}.contact dl{grid-template-columns:1fr}.contact dt{margin-top:8px}}
