@@ -116,3 +116,23 @@ footer a:hover{color:var(--bone)}
 .case-grid.featured .big{font-size:58px}
 @media (max-width:1000px){.case-grid.featured{grid-template-columns:repeat(2,1fr)}.case-grid{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:600px){.case-grid,.case-grid.featured{grid-template-columns:1fr}}
+.case-grid:not(.featured){grid-template-columns:repeat(4,1fr)}
+.case-grid:not(.featured) .big{font-size:54px}
+.best{margin-top:var(--gap);border:1px solid var(--line);border-radius:12px;padding:24px 24px 26px;background:rgba(11,15,18,.42)}
+.best-head .kicker{margin:0}
+.best-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--gap);margin-top:18px}
+.best-grid .num{font-size:clamp(36px,4vw,48px)}
+.best-grid .lbl{letter-spacing:.08em}
+@media (max-width:1000px){.case-grid:not(.featured),.best-grid{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){.case-grid:not(.featured){grid-template-columns:1fr}}
+.case-grid.featured,.case-grid:not(.featured),.best-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.case{padding:24px 20px 20px}
+.metrics{gap:6px}
+.metrics b{font-size:15px}
+.metrics span{font-size:10px;letter-spacing:.06em;white-space:nowrap}
+.case h3{min-height:2.6em}
+@media (max-width:1000px){.case-grid.featured,.case-grid:not(.featured),.best-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.case-grid.featured,.case-grid:not(.featured){grid-template-columns:1fr}.case h3{min-height:0}}
+.cobrand{min-width:0;overflow:hidden}
+.cobrand img{flex:0 1 auto;min-width:0;max-width:84px;height:24px}
+.cobrand img:first-child{flex:0 0 auto}
