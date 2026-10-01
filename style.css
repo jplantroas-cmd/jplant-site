@@ -197,3 +197,7 @@ legend+.opts{margin-top:16px}
 .more-btn{cursor:pointer;font-family:inherit;padding:12px 24px}
 @media (max-width:1000px){.mini-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:600px){.mini-grid{grid-template-columns:1fr}}
+.foot-links{display:flex;align-items:center;gap:18px}
+.foot-links a{margin-left:0}
+.social{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border:1px solid var(--line);border-radius:50%;color:var(--bone)!important;transition:border-color .15s,color .15s}
+.social:hover{border-color:var(--blue);color:var(--blue)!important}
