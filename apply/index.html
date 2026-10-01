@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="facebook-domain-verification" content="vubamt81bxkn15qtvo4wtvx6li7fex" /><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/img/icons/apple-touch-icon.png"><meta name="theme-color" content="#0B0F12"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="preload" href="/fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin><link rel="stylesheet" href="/style.css?v=10"><title>Apply | JPlant Advertising</title><meta name="description" content="Apply to work with JPlant Advertising."></head><body>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'self' mailto:; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"><meta name="referrer" content="strict-origin-when-cross-origin"><meta name="facebook-domain-verification" content="vubamt81bxkn15qtvo4wtvx6li7fex" /><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/img/icons/apple-touch-icon.png"><meta name="theme-color" content="#0B0F12"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="preload" href="/fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin><link rel="stylesheet" href="/style.css?v=11"><title>Apply | JPlant Advertising</title><meta name="description" content="Apply to work with JPlant Advertising."><link rel="canonical" href="https://jplantadvertising.com/apply/"><meta property="og:type" content="website"><meta property="og:site_name" content="JPlant Advertising"><meta property="og:title" content="Apply | JPlant Advertising"><meta property="og:description" content="Apply to work with JPlant Advertising. Three quick questions."><meta property="og:url" content="https://jplantadvertising.com/apply/"><meta property="og:image" content="https://jplantadvertising.com/img/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://jplantadvertising.com/img/og.png"></head><body>
 <header class="top"><div class="wrap"><a class="brand" href="/"><img src="/img/logos/jplant-advertising.png" alt="JP"><span>JPlant Advertising</span></a><nav><a href="/#results">Results</a><a href="/#services">Services</a><a href="/#about">About</a><a href="/apply/" class="nav-cta">Apply</a></nav></div></header>
 <main class="apply"><div class="wrap narrow">
 <div class="kicker">Apply</div>
@@ -35,18 +35,5 @@
 <div id="done" class="done" hidden><h2 class="display">Almost done.</h2><p>Your email app should have opened with your application. Hit send and we&#8217;ll be in touch within two business days.</p><p class="fineprint">Didn&#8217;t open? Email your answers to <a href="mailto:jplantroas@gmail.com">jplantroas@gmail.com</a>.</p></div>
 </div></main>
 <footer><div class="wrap"><div>&copy; 2026 JPlant Advertising</div><div><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></div></div></footer>
-<script>
-document.getElementById('apply').addEventListener('submit',function(e){
-  e.preventDefault();
-  var f=e.target, err=document.getElementById('err');
-  if(!f.checkValidity()){err.hidden=false;err.scrollIntoView({behavior:'smooth',block:'center'});return;}
-  err.hidden=true;
-  var d=new FormData(f), g=function(k){return (d.get(k)||'').toString().trim();};
-  var body=['Name: '+g('name'),'Business: '+g('business'),'Email: '+g('email'),'Website/IG: '+(g('link')||'-'),'',
-    'Run ads before: '+g('experience'),'Monthly ad budget: '+g('ad_budget'),'Budget for a partner: '+g('mgmt_budget'),'',
-    'What we sell: '+(g('sell')||'-')].join('\n');
-  location.href='mailto:jplantroas@gmail.com?subject='+encodeURIComponent('Application: '+g('business'))+'&body='+encodeURIComponent(body);
-  f.hidden=true; document.getElementById('done').hidden=false; window.scrollTo({top:0,behavior:'smooth'});
-});
-</script>
+<script src="/js/apply.js" defer></script>
 </body></html>
