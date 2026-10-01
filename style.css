@@ -171,3 +171,4 @@ legend+*{clear:both}
 .hint{margin:6px 0 0 36px;padding-top:2px}
 .opts{margin-top:18px}
 legend+.opts{margin-top:16px}
+.opts{grid-template-columns:1fr}
