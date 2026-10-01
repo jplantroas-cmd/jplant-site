@@ -136,3 +136,38 @@ footer a:hover{color:var(--bone)}
 .cobrand{min-width:0;overflow:hidden}
 .cobrand img{flex:0 1 auto;min-width:0;max-width:84px;height:24px}
 .cobrand img:first-child{flex:0 0 auto}
+/* nav + apply page */
+nav a.nav-cta{color:var(--bone);border:1px solid rgba(239,231,216,.25);padding:6px 14px;border-radius:6px}
+nav a.nav-cta:hover{border-color:var(--red);color:#fff}
+.apply{padding:clamp(56px,8vw,96px) 0 clamp(72px,9vw,112px)}
+.narrow{max-width:760px}
+.apply h1{font-size:clamp(52px,8vw,92px);margin:0 0 18px}
+.apply .serif{font-size:clamp(24px,3vw,32px);color:var(--blue);margin:0 0 18px}
+.apply .lede{color:var(--soft);font-size:18px;margin:0 0 44px;max-width:600px}
+fieldset{border:0;border-top:1px solid var(--line);padding:30px 0 6px;margin:0}
+legend{display:flex;align-items:baseline;gap:14px;font-size:20px;font-weight:700;padding:0;margin-bottom:6px}
+.qn{font-family:Anton,sans-serif;color:var(--blue);font-size:22px;font-weight:400}
+.hint{color:var(--muted);font-size:14px;margin:4px 0 0 38px}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0 0}
+.opt{position:relative;cursor:pointer}
+.opt input{position:absolute;opacity:0;pointer-events:none}
+.opt span{display:block;border:1px solid var(--line);border-radius:8px;padding:14px 16px;color:var(--soft);transition:border-color .15s,background .15s,color .15s}
+.opt:hover span{border-color:rgba(239,231,216,.3)}
+.opt input:checked+span{border-color:var(--blue);background:rgba(124,203,255,.08);color:var(--bone)}
+.opt input:focus-visible+span{outline:2px solid var(--blue);outline-offset:2px}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:16px}
+.fields label{display:flex;flex-direction:column;gap:6px;font-size:13px;color:var(--muted);font-weight:600;letter-spacing:.02em}
+.fields .wide{grid-column:1/-1}
+.fields input,.fields textarea{font:inherit;font-size:16px;color:var(--bone);background:rgba(239,231,216,.04);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.fields input:focus,.fields textarea:focus{outline:none;border-color:var(--blue)}
+.error{color:var(--red);margin:22px 0 0}
+.big-btn{margin-top:30px;border:0;cursor:pointer;font-family:inherit;font-size:16px;padding:16px 34px}
+.done h2{font-size:clamp(44px,6vw,64px);margin:0 0 16px}
+.done p{color:var(--soft)}
+@media (max-width:600px){.opts,.fields{grid-template-columns:1fr}.hint{margin-left:0}nav a.nav-cta{padding:5px 10px}}
+fieldset{padding:32px 0 34px}
+legend{float:left;width:100%;margin:0 0 4px}
+legend+*{clear:both}
+.hint{margin:6px 0 0 36px;padding-top:2px}
+.opts{margin-top:18px}
+legend+.opts{margin-top:16px}

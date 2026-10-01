@@ -2,7 +2,10 @@
 
 Everything for the site in one place. Design comes later. Brand rules: `~/jplant-brain/brand-assets/personal-brand/source/index.html`.
 
-## LIVE on jplantadvertising.com (2026-10-01)
+## LIVE on jplantadvertising.com (2026-10-01, updated)
+Receipts: featured 32.24 Ian Asher, 16.88 Mizzou St. Patrick's, 16.01 Class Dismissed ASU, 14.74 D.O.D (JP×DE×Insomniac); grid 13.48 Polo G, 12.91 LUCØ, 11.44 GT, 9.91 ASU, 9.36 + 8.54 Club Capri Chicago, 7.62 Daniel Allan, 7.21 Detroit. Best single campaigns strip: 29.99 + 16.09 Polo G, 17.18 GT, 14.75 Capri Chicago (rows from the IG screenshots). Only result not shown: Starkville 7.95X (lowest).
+What we do: 6 tiles (sales, events, leads, traffic, awareness, engagement).
+
 Case studies from the 7 @jplant.advertising IG case-study posts (source PNGs in ~/Downloads, copies in _source/): Polo G × Rolling Loud 13.48X, Georgia Tech B2S 11.44X, ASU B2S 9.91X, Club Capri Chicago 9.36X and 8.54X, Daniel Allan 7.62X, Club Capri Detroit 7.21X. All 13 client logos shown. Results bar = ROAS + revenue only (Jonathan: don't push ticket/purchase counts). No phone, no photo, no testimonials for now.
 
 ## Earlier base (already public in Jonathan's approved brand guide, 2026-09-28)
