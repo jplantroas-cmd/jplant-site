@@ -89,3 +89,11 @@ footer a:first-child{margin-left:0}
 .brand span{white-space:nowrap}
 .case .cobrand .x{font-size:20px}
 @media (max-width:560px){.brand span{display:none}}
+.case-grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.case .big{font-size:64px}
+.case .roaslbl{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+.case .cobrand img{height:26px;max-width:110px;object-fit:contain}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:16px;padding-top:14px;border-top:1px solid var(--line)}
+.metrics b{display:block;color:var(--gold);font-size:17px}
+.metrics span{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.logos img{height:34px;max-width:140px;object-fit:contain}
