@@ -2,7 +2,10 @@
 
 Everything for the site in one place. Design comes later. Brand rules: `~/jplant-brain/brand-assets/personal-brand/source/index.html`.
 
-## On the v2 site now (already public in Jonathan's approved brand guide, 2026-09-28)
+## LIVE on jplantadvertising.com (2026-10-01)
+Case studies from the 7 @jplant.advertising IG case-study posts (source PNGs in ~/Downloads, copies in _source/): Polo G × Rolling Loud 13.48X, Georgia Tech B2S 11.44X, ASU B2S 9.91X, Club Capri Chicago 9.36X and 8.54X, Daniel Allan 7.62X, Club Capri Detroit 7.21X. All 13 client logos shown. Results bar = ROAS + revenue only (Jonathan: don't push ticket/purchase counts). No phone, no photo, no testimonials for now.
+
+## Earlier base (already public in Jonathan's approved brand guide, 2026-09-28)
 - 32.24X ROAS, Desert Events (roster: Ian Asher show)
 - 13.48X ROAS + 252 tickets, Rolling Loud × Polo G
 - "Rolling Loud, Insomniac and Desert Events" named as proof
