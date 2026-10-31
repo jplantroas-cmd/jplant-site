@@ -201,3 +201,28 @@ legend+.opts{margin-top:16px}
 .foot-links a{margin-left:0}
 .social{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border:1px solid var(--line);border-radius:50%;color:var(--bone)!important;transition:border-color .15s,color .15s}
 .social:hover{border-color:var(--blue);color:var(--blue)!important}
+.result h2{font-size:clamp(44px,6vw,64px);margin:0 0 16px}
+.result p{color:var(--soft);font-size:18px}
+.result .btn{margin-top:18px}
+.offer{border:1px solid var(--line);border-top:4px solid var(--blue);border-radius:12px;padding:22px 22px 10px;margin:0 0 22px;background:rgba(239,231,216,.03)}
+.offer[data-offer="monthly"]{border-top-color:var(--green)}
+.offer[data-offer="leads"]{border-top-color:var(--red)}
+.offer.addons{border-top-color:var(--gold)}
+.offer.best{border-color:var(--blue);border-top-width:6px;background:rgba(124,203,255,.06)}
+.offer-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.offer h3{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:32px;margin:0;letter-spacing:.01em}
+.pick{display:none;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);background:var(--blue);border-radius:99px;padding:4px 12px}
+.offer.best .pick{display:inline-block}
+.offer-what{margin:6px 0 12px!important}
+.offer table{width:100%;border-collapse:collapse;font-size:17px;font-variant-numeric:tabular-nums}
+.offer th{text-align:left;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600;padding:8px 6px;border-bottom:1px solid var(--line)}
+.offer td{padding:12px 6px;border-bottom:1px solid var(--line);color:var(--bone);vertical-align:top}
+.offer tr:last-child td{border-bottom:0}
+.offer td small{color:var(--muted);font-size:14px}
+.offer .price{font-family:Anton,Impact,sans-serif;font-size:24px;letter-spacing:.01em;white-space:nowrap;text-align:right;color:var(--gold)}
+.offer .price small{font-family:Inter,sans-serif;font-size:13px;display:block;white-space:normal;color:var(--muted)}
+.offer-note{font-size:14px!important;color:var(--muted)!important;margin:12px 0}
+#pricing form{margin-top:34px}
+@media (max-width:600px){.offer{padding:18px 16px 6px}.offer h3{font-size:26px}.offer .price{font-size:20px}}
+.opt span small{display:block;font-size:13px;color:var(--muted);margin-top:2px}
+.offer[hidden]{display:none}
