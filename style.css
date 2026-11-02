@@ -226,4 +226,4 @@ legend+.opts{margin-top:16px}
 @media (max-width:600px){.offer{padding:18px 16px 6px}.offer h3{font-size:26px}.offer .price{font-size:20px}}
 .opt span small{display:block;font-size:13px;color:var(--muted);margin-top:2px}
 .offer[hidden]{display:none}
-.upd{display:block;margin-top:4px;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);opacity:.7}
+.upd{display:block;margin-top:4px;font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);opacity:.7}
