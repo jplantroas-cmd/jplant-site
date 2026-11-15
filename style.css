@@ -227,3 +227,8 @@ legend+.opts{margin-top:16px}
 .opt span small{display:block;font-size:13px;color:var(--muted);margin-top:2px}
 .offer[hidden]{display:none}
 .upd{display:block;margin-top:4px;font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);opacity:.7}
+.book{padding:clamp(56px,8vw,88px) 0}
+.book h1{font-size:clamp(48px,7vw,80px);margin:0 0 10px}
+.book-frame{background:#fff;border-radius:10px;overflow:hidden;max-width:1000px;margin:8px auto 0}
+.book-frame iframe{display:block;width:100%;height:760px;border:0}
+@media (max-width:700px){.book-frame iframe{height:1150px}}
