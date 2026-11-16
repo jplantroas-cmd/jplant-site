@@ -1,3 +1,16 @@
 User-agent: *
 Allow: /
 Sitemap: https://jplantadvertising.com/sitemap.xml
+
+# AI search crawlers welcome
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
