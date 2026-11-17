@@ -1,7 +1,7 @@
 (function(){var f=document.getElementById('calc');if(!f)return;var o=document.getElementById('calc-out');
-var B=parseFloat(f.dataset.blended),M=parseFloat(f.dataset.median);
+var CPA=parseFloat(f.dataset.cpa);
 function $(n){return '$'+Math.round(n).toLocaleString('en-US')}
-function run(){var t=parseFloat(document.getElementById('c-tix').value)||0,p=parseFloat(document.getElementById('c-price').value)||0,k=parseFloat(document.getElementById('c-per').value)||1;
-var rev=t*p,orders=t/k;
-o.innerHTML='<div class="stat-row"><div><b>'+$(rev)+'</b><span>ticket revenue goal</span></div><div><b>'+$(rev/B)+'</b><span>safe ad budget ('+B+'X)</span></div><div><b>'+$(rev/M)+'</b><span>strong ad budget ('+M+'X)</span></div><div><b>'+$(rev/B/Math.max(orders,1))+'</b><span>ad cost per order (safe)</span></div></div>';}
+function v(id,d){var x=parseFloat(document.getElementById(id).value);return x>0?x:d}
+function run(){var s=v('c-sales',0),p=v('c-price',0),r=v('c-roas',1);var rev=s*p,bud=rev/r;
+o.innerHTML='<div class="stat-row"><div><b>'+$(rev)+'</b><span>sales goal</span></div><div><b>'+$(bud)+'</b><span>ad budget at '+r+'X</span></div><div><b>'+(s?'$'+(bud/s).toFixed(2):'$0')+'</b><span>ad cost per sale</span></div><div><b>$'+CPA.toFixed(2)+'</b><span>our real average cost per purchase</span></div></div>';}
 f.addEventListener('input',run);run();})();
